@@ -1,7 +1,7 @@
 button {
-  color: #FF0000;
-}
+  color: #FF0000; // Set initial text color to red
 
-button:hover {
-  color: #00FF00;
+  &:hover {
+    color: #00FF00; // Change text color to green when hovered
+  }
 }
