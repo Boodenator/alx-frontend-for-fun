@@ -1,15 +1,10 @@
-/*
-  6-nested_hover.scss
-  Author: Boodenator
-  Description: This file contains styles for button elements. 
-               The button text color is red by default and changes to green when hovered.
-  Date: 2024-12-21
-*/
+/* Nested hover
+change button color on hover*/
 
 button {
-  color: #FF0000;; // Set initial text color to red
+    color: #FF0000;
 
-  &:hover {
-    color: #00FF00; // Change text color to green when hovered
-  }
+    &:hover {
+        color: #00FF00;
+    }
 }
