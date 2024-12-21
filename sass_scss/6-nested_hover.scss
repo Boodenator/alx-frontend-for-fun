@@ -1,9 +1,7 @@
-/* Nested hove*/
-
 button {
-  color: #FF0000; // Set initial text color to red
+  color: #FF0000;
+}
 
-  button:hover {
-    color: #00FF00; // Change text color to green when hovered
-  }
+button:hover {
+  color: #00FF00;
 }
